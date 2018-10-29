@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.default_subspec = 'Swift'
+  s.default_subspec = 'default'
 
   s.subspec 'default' do |ss|
 	  ss.source_files = ['Core/**/*.{h,m}',
